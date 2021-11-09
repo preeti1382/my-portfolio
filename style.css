@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+#banner{
+    background-image: url(Images/bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+/* navbar */
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.second-links{
+    margin-left:30px;
+}
+nav{
+    position:relative;
+    top:10px;
+}
+.nav-link{
+    font-weight:500;
+    font-size:18px;
+    margin-right:10px;
+    color:white;
+    font-weight:600;
+}
+.navbar-brand{
+    font-weight:800;
+    color:black;
+    font-size:24px;
+}
+.navbar-brand:hover{
+    color:white;
+}
+/* banner-content */
+.content-div{
+    padding: 50px;
+}
+.logo-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-name{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.banner-designation{
+    text-align: center;
+    color: rgb(158, 155, 155);
+    font-weight: 500;
+    font-size: 15px;
+}
+.content-name{
+    color: white;
+    font-weight: 800;
+    text-align: left;
+}
+.content-p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+/* work and projects */
+.heading{
+    text-align: center;
+    color: darkslategrey;
+    margin-top: 30px;
+}
+.main-header{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.quote{
+    text-align: center;
+    color: darkgray;
+    margin-bottom: 50px;
+}
+/* work */
+.work-heading{
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 700;
+    color: black;
+}
+.work-subheading{
+    text-align: left;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.work-img{
+    width: 450px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.work-img:hover{
+    /* width: 500px;
+    height: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    transform: scale(1.1);
+}
+.work-description{
+    text-align: justify;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.visit-work{
+    width: fit-content;
+    border: 2px solid rgb(13, 13, 66);
+    color: rgb(13, 13, 66);
+    border-radius: 10px;
+    padding: 7px 7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.visit-work:hover{
+    border: 2px solid rgb(13, 13, 66);
+    color: white;
+    background-color: rgb(13, 13, 66);
+    border-radius: 10px;
+    padding: 7px 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* project */
+.project-img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+.project-img:hover{
+    transform: scale(1.1);
+}
+.tech-li{
+    margin-left: 20px;
+    color: rgb(148, 145, 145);
+}
+.project-work{
+    background-color: rgb(13, 13, 66);
+    border: 1px solid rgb(13, 13, 66);
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project-work:hover{
+    background-color: white;
+    color: rgb(13, 13, 66);
+}
+/* skiils */
+#skills{
+    background-color: #78f0ca80;
+}
+.skills-heading{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.skills-subheading{
+    color: rgb(148, 145, 145);
+    text-align: center;
+}
+.my-skills{
+    text-align: center;
+}
+.skills-row{
+    /* margin-top: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.skill-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+}
+/* contact */
+#contact{
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 50, 50);
+}
+@media only screen and (max-width: 600px){
+    /* navabar */
+    nav{
+        position:relative;
+        top:0px;
+    }
+    .second-links{
+        margin-left:0px;
+    }
+    .nav-link:hover{
+        color:white;
+        width:100px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    /* content */
+    .content-div{
+        padding: 0px;
+    }
+    .logo-img{
+        width: 200px;
+        height: 200px;
+    }
+    .content-name{
+        text-align: center;
+    }
+    .content-p{
+        text-align: center;
+    }
+    /* work */
+    .work-row{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .work-img{
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+    .work-heading , .work-subheading , .work-description{
+        text-align: center;
+    }
+    .visit-work{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* project */
+    .project-img{
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+    
+    .tech-li{
+        text-align: center;
+    }
+}
