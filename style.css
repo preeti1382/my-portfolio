@@ -287,8 +287,27 @@ textarea {
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
 }
+.row-2{
+    margin-top: 50px;
+}
+.footer-p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+#footer{
+    margin-top:40px;
+    margin: 0%;
+    padding: 0%;
+}
+.copyright{
+    color:white;
+    margin-top:10px;
+}
 
-
+.footer-p{
+    color: white;
+}
 
 @media only screen and (max-width: 600px){
     .styled-input {
