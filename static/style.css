@@ -146,7 +146,38 @@ nav{
     background-color: white;
     margin-bottom: 100px;
 }
+/* skills */
+#skills{
+    text-align: center;
+    padding: 50px;
+}
+.skills-heading{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+.skill-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill-inner{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-radius: 12px;
+    /* margin-left: 0.5px; */
+}
 /* more about me */
+#more{
+    background-color: lightgrey;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
 .more-heading{
     text-align: center;
     color: black;
@@ -162,15 +193,13 @@ nav{
     background-color: rgb(119, 168, 190);
 }
 .more-card{
-    border: 1px solid white;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
     margin-top: 100px;
 }
 /* contact */
 #contact{
-    background-color: lightgrey;
     padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 0px;
 }
 .contact-heading{
     text-align: center;
@@ -345,16 +374,14 @@ nav{
         background-color: rgb(119, 168, 190);
     }
     .more-card{
-        border: 1px solid white;
+        border: 1px solid lightgrey;
+        background-color: inherit;
         margin-top: 0px;
         max-width: 18rem;
     }
     /* contact */
     #contact{
-        background-color: lightgrey;
-        padding: 0px;
-        margin-top: 50px;
-        margin-bottom: 0px;
+        padding: 20px;
     }
     .contact-heading{
         text-align: center;
